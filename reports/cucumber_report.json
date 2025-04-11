@@ -1,0 +1,79 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-macro;add-trigger,-action,-local-variable-and-verify-the-result",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add trigger, action, Local Variable and verify the result",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the application",
+            "match": {
+              "location": "features/step-definitions/steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6498880539
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add a trigger",
+            "match": {
+              "location": "features/step-definitions/steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6263579247
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see a trigger is created",
+            "match": {
+              "location": "features/step-definitions/steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 556333
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-macro",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Test macro",
+    "tags": [],
+    "uri": "features/macro.feature"
+  }
+]

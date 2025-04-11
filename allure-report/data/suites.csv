@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","hook:","","Fri Apr 11 12:25:33 GMT+07:00 2025","failed","Fri Apr 11 12:25:33 GMT+07:00 2025","","","",""
+"","6500","Given I open the application","","Fri Apr 11 12:25:21 GMT+07:00 2025","passed","Fri Apr 11 12:25:27 GMT+07:00 2025","","Test macro: Add trigger, action, Local Variable and verify the result","",""
+"","6264","When I add a trigger","","Fri Apr 11 12:25:27 GMT+07:00 2025","passed","Fri Apr 11 12:25:33 GMT+07:00 2025","","Test macro: Add trigger, action, Local Variable and verify the result","",""
+"","1","Then I should see a trigger is created","","Fri Apr 11 12:25:33 GMT+07:00 2025","passed","Fri Apr 11 12:25:33 GMT+07:00 2025","","Test macro: Add trigger, action, Local Variable and verify the result","",""

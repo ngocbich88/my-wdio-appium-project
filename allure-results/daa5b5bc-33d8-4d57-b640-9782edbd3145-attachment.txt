@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.ImageButton[@resource-id=\"com.arlosoft.macrodroid:id/button_skip\"]"
+}

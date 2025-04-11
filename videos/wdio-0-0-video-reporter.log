@@ -1,0 +1,8 @@
+[2025-04-07T13:55:00.604Z] Adding execution video attachment as /Users/nguyenthibichngoc/my-webdriverio-project/videos/Add-trigger-action-Local-Variable-and-verify-the-result-0-0--browser--04-07-2025--20-55-00-596.webm
+[2025-04-07T13:55:00.650Z] Add frame for command: /session/:sessionId/execute/sync => [sync]
+[2025-04-07T13:55:01.981Z] - Screenshot (frame: 0)
+[2025-04-07T13:55:10.612Z] ffmpeg command: "/Users/nguyenthibichngoc/my-webdriverio-project/node_modules/@ffmpeg-installer/darwin-arm64/ffmpeg" -y -r 10 -i "/Users/nguyenthibichngoc/my-webdriverio-project/videos/.video-reporter-screenshots/Add-trigger-action-Local-Variable-and-verify-the-result-0-0--browser--04-07-2025--20-55-00-596/%04d.png" -vcodec libvpx-vp9 -crf 32 -pix_fmt yuv420p -vf "scale=1200:trunc(ow/a/2)*2","setpts=3.0*PTS" "/Users/nguyenthibichngoc/my-webdriverio-project/videos/Add-trigger-action-Local-Variable-and-verify-the-result-0-0--browser--04-07-2025--20-55-00-596.webm"
+[2025-04-07T13:55:12.215Z] Screenshot not available (frame: 1). Error: invalid session id: WebDriverError: A session is either terminated or not started when running "screenshot" with method "GET"..
+[2025-04-07T13:55:12.218Z] Screenshot not available (frame: 2). Error: invalid session id: WebDriverError: A session is either terminated or not started when running "screenshot" with method "GET"..
+[2025-04-07T13:55:13.142Z] Generated video: "/Users/nguyenthibichngoc/my-webdriverio-project/videos/Add-trigger-action-Local-Variable-and-verify-the-result-0-0--browser--04-07-2025--20-55-00-596.webm" (2530ms)
+[2025-04-07T13:55:13.142Z] Generated 1 videos, video report done!

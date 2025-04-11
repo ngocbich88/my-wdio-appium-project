@@ -1,0 +1,69 @@
+Notes:
+	•	Any programming languages, refer typescript.
+	•	Submit sources and video record your screen when running the test cases on emulator or rea. With the real devices, we can use the other phone to record the running phone
+	•	BONUS:
+	•	Soft Assert
+	•	HTML report (Extent, Allure,...)
+	•	BDD
+	•	Data driven
+
+As a QA Automation, we need to transfer below manual test cases to automation of Macro Android app:
+
+Required desired capabilities to add more to appium:
+capabilities.setCapability("appPackage", "com.arlosoft.macrodroid");
+capabilities.setCapability("appWaitActivity","com.arlosoft.macrodroid.intro.IntroActivity");
+
+================ Section 1============== (Maximum grade: 8)
+TC1: Verify that the user is able to add a macro (don’t need to add macro name)  (add 3 macros)
+	•	1. Open application
+	•	2. On Dashboard Page, tap on click Macro
+	•	3. On Macro Page, tap on Trigger to add a trigger
+	•	4. On Trigger Page, tap on Application
+	•	5. Tap on App Install/Remove/Update
+	•	6. Select Application Removed radio button
+	•	7. Select Any Application and OK
+	•	8. On Macro Page, tap on Action to add an action
+	•	9. On Action page, tap on Logging
+	•	10. Select Clear Log
+	•	11. Select System Log and OK
+	•	12. On Macro Page, tap on Constrains to add an contrains
+	•	13. Select Device State
+	•	14. Select Airplan Mode
+	•	15. Select Airplan Mode Disable and OK
+	•	16. On Macro Page, select add Local Variable
+	•	17. Add an Interger Variable with Name “Test Case”
+	•	18. Select new added Variable, and input Value 1
+Expected:
+	•	#7 The Trigger Macro should show correct added values
+	•	#11 The Action Macro should show correct added values
+	•	#15 The Contrains should show correct added values
+	•	# 18 The Local Varialbe should show correct added values
+
+TC2: Verify that the user is able to add an action blocks (add 3 action blocks)
+
+	•	1. Open the Macdroid application
+	•	2. Tap on Action Blocks Menu
+	•	3. On Action Blocks Page, add a action block Name
+	•	4. Add a action block description
+	•	5. Tap on Add button
+	•	6. On Action Block Detail Page, Add on a input variable name
+	•	7. Add Boolean value and ok
+	•	8. Select new added input variable
+	•	9. Select the Value to True
+	•	10. On Action Blocks Detail Page, tap on Action to add an action
+	•	11. On Action page, tap on Logging
+	•	12. Select Clear Log
+	•	13. Select System Log and OK
+	•	14. On Action Block Detail Page, Add on a out variable name
+	•	15. Add String value and ok
+	•	16. Select new added input variable
+	•	17. Add String value = “ This is a testing string”
+	•	18. Verify information display in Action Block detail page
+	•	19. Tap on “V” button to add the action block
+	•	20. In Action Block Page, verify the block name and action block description
+Expected result:
+	•	#18 The input variable, action, output variable should show correctly information
+	•	#20 Action Block should be added and the block name and description should show correctly
+
+===================Section 2=========================
+	•	Write 2 more test cases in your styles and transfer it to automation script based on created framework.
